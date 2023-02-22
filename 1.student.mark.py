@@ -1,5 +1,5 @@
 courses = {}
-tudents = {}
+students = {}
 dob = {}
 marks = []
 
