@@ -64,6 +64,7 @@ while True:
     print("4. List out courses")
     print("5. List out students")
     print("6. List out marks of a course")
+    print("7. Exit")
     opt = input()
     if opt == "1":
         for i in range(total_student()):
@@ -79,5 +80,7 @@ while True:
         list_student()
     elif opt == "6":
         show_mark_course()
+    elif opt == "7":
+	break
     else:
         print("Please only enter a number from 1 to 6!")
